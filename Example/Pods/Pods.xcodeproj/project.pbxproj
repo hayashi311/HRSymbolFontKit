@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F8C5794E04651BDA12F1CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3BCF3C25095726EEDFF640 /* Foundation.framework */; };
+		122CE536907EBAA58ED7EDED /* Pods-Tests-HRSymbolFontKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF625130F32C28AFE69E65E /* Pods-Tests-HRSymbolFontKit-dummy.m */; };
+		6F8F8E63C8038CD47B6E318C /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B89EF4978F21417F18DF72E8 /* Pods-Tests-dummy.m */; };
+		75AB5B69C65BA41ABE70AACC /* Pods-HRSymbolFontKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6B6C904ABB9C8A86891AC8 /* Pods-HRSymbolFontKit-dummy.m */; };
+		78505204F0EC7957922A0A4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3BCF3C25095726EEDFF640 /* Foundation.framework */; };
+		9F2F9DFBC5E1AB11A0393BCD /* Pods-HRSymbolFontKit-HRSymbolFontKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F955BE01B8E3E186EFB8E0F0 /* Pods-HRSymbolFontKit-HRSymbolFontKit-dummy.m */; };
+		E5D243BF3A20C3E2C17523FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3BCF3C25095726EEDFF640 /* Foundation.framework */; };
+		FFBA173D8654A8CB83DDD352 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3BCF3C25095726EEDFF640 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05060219299FB59A895DB193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D6A92E009FDD2D2D8B6A12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6DC344A26A8B948B31039BE;
+			remoteInfo = HRSymbolFontKit;
+		};
+		18FC2E20762636EBA7EEFE8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D6A92E009FDD2D2D8B6A12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11CC6C458D6BB4530502D789;
+			remoteInfo = "Pods-Tests-HRSymbolFontKit";
+		};
+		A16FDA35377D6A4074FE960C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D6A92E009FDD2D2D8B6A12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6DC344A26A8B948B31039BE;
+			remoteInfo = HRSymbolFontKit;
+		};
+		ED03597DFBAAD24D410156D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D6A92E009FDD2D2D8B6A12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6ED097A2F236D1DD744A3C;
+			remoteInfo = "Pods-HRSymbolFontKit-HRSymbolFontKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A994B16495265C70EA9E3E /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		064CFC30F645097CFFE5BC49 /* Pods-HRSymbolFontKit-HRSymbolFontKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRSymbolFontKit-HRSymbolFontKit-Private.xcconfig"; sourceTree = "<group>"; };
+		0AF625130F32C28AFE69E65E /* Pods-Tests-HRSymbolFontKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-HRSymbolFontKit-dummy.m"; path = "../Pods-Tests-HRSymbolFontKit/Pods-Tests-HRSymbolFontKit-dummy.m"; sourceTree = "<group>"; };
+		17AECCDC61F05E4CC882A974 /* Pods-HRSymbolFontKit-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HRSymbolFontKit-environment.h"; sourceTree = "<group>"; };
+		22EFB81306857C65582220CB /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		234A600F07286CB88184D587 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3BCF3C25095726EEDFF640 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		42A007E32CBE79513B8B5676 /* libPods-HRSymbolFontKit-HRSymbolFontKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HRSymbolFontKit-HRSymbolFontKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FD9652DF3E73390C5B53DE /* Pods-HRSymbolFontKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HRSymbolFontKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46DFF53D40AEC4DAC8995003 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		48A44D942987B83AD8BF9EED /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		5AF77BD12081ADDC97C0D7C3 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		77B864DF6687D452EEF9BE39 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		79A538D3A9E17B0C844BE7C4 /* Pods-Tests-HRSymbolFontKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-HRSymbolFontKit.xcconfig"; path = "../Pods-Tests-HRSymbolFontKit/Pods-Tests-HRSymbolFontKit.xcconfig"; sourceTree = "<group>"; };
+		87E53BBD56A12825BA18F439 /* Pods-HRSymbolFontKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HRSymbolFontKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C63F79B4EDD60E905559F14 /* Pods-HRSymbolFontKit-HRSymbolFontKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HRSymbolFontKit-HRSymbolFontKit-prefix.pch"; sourceTree = "<group>"; };
+		AAF1CBC08F7AFA1D372FA53A /* HRSymbolFontKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRSymbolFontKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33768AF80BC8DC9C122DF22 /* libPods-Tests-HRSymbolFontKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-HRSymbolFontKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B70CA37084CD3EEDF0D1B9 /* Pods-HRSymbolFontKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRSymbolFontKit.debug.xcconfig"; sourceTree = "<group>"; };
+		B877EA14E46A0A85A1BEF3C6 /* Pods-Tests-HRSymbolFontKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-HRSymbolFontKit-prefix.pch"; path = "../Pods-Tests-HRSymbolFontKit/Pods-Tests-HRSymbolFontKit-prefix.pch"; sourceTree = "<group>"; };
+		B89EF4978F21417F18DF72E8 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		BC6B6C904ABB9C8A86891AC8 /* Pods-HRSymbolFontKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HRSymbolFontKit-dummy.m"; sourceTree = "<group>"; };
+		CF67EB36D0F0668BD122AFE4 /* libPods-HRSymbolFontKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HRSymbolFontKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F292E8DA7CBD06DE4BFD5E /* Pods-HRSymbolFontKit-HRSymbolFontKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRSymbolFontKit-HRSymbolFontKit.xcconfig"; sourceTree = "<group>"; };
+		D98AB914067FF8AD39023E37 /* Pods-Tests-HRSymbolFontKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-HRSymbolFontKit-Private.xcconfig"; path = "../Pods-Tests-HRSymbolFontKit/Pods-Tests-HRSymbolFontKit-Private.xcconfig"; sourceTree = "<group>"; };
+		DD54F8792EDB82BB7BF3A002 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA502528D3B07A405BABE260 /* Pods-HRSymbolFontKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRSymbolFontKit-resources.sh"; sourceTree = "<group>"; };
+		EA778870D468A301096EB9F6 /* Pods-HRSymbolFontKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRSymbolFontKit.release.xcconfig"; sourceTree = "<group>"; };
+		F955BE01B8E3E186EFB8E0F0 /* Pods-HRSymbolFontKit-HRSymbolFontKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HRSymbolFontKit-HRSymbolFontKit-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DC7EF13BD0FA7D2D5119208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78505204F0EC7957922A0A4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D8CD26356689777F54E70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBA173D8654A8CB83DDD352 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB5BB483B37D26968DAF0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D243BF3A20C3E2C17523FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9C2DD294AB51FB394829F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F8C5794E04651BDA12F1CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE38830E409FAF8C2DE7758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27B66986831CD08F9CBF0799 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B3BCF3C25095726EEDFF640 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3EFD4030BD785A0B70435A3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAF1CBC08F7AFA1D372FA53A /* HRSymbolFontKit.bundle */,
+				CF67EB36D0F0668BD122AFE4 /* libPods-HRSymbolFontKit.a */,
+				42A007E32CBE79513B8B5676 /* libPods-HRSymbolFontKit-HRSymbolFontKit.a */,
+				234A600F07286CB88184D587 /* libPods-Tests.a */,
+				B33768AF80BC8DC9C122DF22 /* libPods-Tests-HRSymbolFontKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A212F5D9BE55852969002F3 = {
+			isa = PBXGroup;
+			children = (
+				77B864DF6687D452EEF9BE39 /* Podfile */,
+				5B5551C979690EEA26C5AFDE /* Development Pods */,
+				56A2D7BBE1B5966DED3A08C2 /* Frameworks */,
+				3EFD4030BD785A0B70435A3B /* Products */,
+				E22DBC3599497CAB1FCD42E7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		56A2D7BBE1B5966DED3A08C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27B66986831CD08F9CBF0799 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578ABFB8F9D4920FCC39D4F9 /* Pods-HRSymbolFontKit */ = {
+			isa = PBXGroup;
+			children = (
+				42FD9652DF3E73390C5B53DE /* Pods-HRSymbolFontKit-acknowledgements.markdown */,
+				87E53BBD56A12825BA18F439 /* Pods-HRSymbolFontKit-acknowledgements.plist */,
+				BC6B6C904ABB9C8A86891AC8 /* Pods-HRSymbolFontKit-dummy.m */,
+				17AECCDC61F05E4CC882A974 /* Pods-HRSymbolFontKit-environment.h */,
+				EA502528D3B07A405BABE260 /* Pods-HRSymbolFontKit-resources.sh */,
+				B6B70CA37084CD3EEDF0D1B9 /* Pods-HRSymbolFontKit.debug.xcconfig */,
+				EA778870D468A301096EB9F6 /* Pods-HRSymbolFontKit.release.xcconfig */,
+			);
+			name = "Pods-HRSymbolFontKit";
+			path = "Target Support Files/Pods-HRSymbolFontKit";
+			sourceTree = "<group>";
+		};
+		5B5551C979690EEA26C5AFDE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A59B92A1E37AB7406D484BBE /* HRSymbolFontKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		879D509C3624FB213D5B88DB /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				22EFB81306857C65582220CB /* Pods-Tests-acknowledgements.markdown */,
+				DD54F8792EDB82BB7BF3A002 /* Pods-Tests-acknowledgements.plist */,
+				B89EF4978F21417F18DF72E8 /* Pods-Tests-dummy.m */,
+				5AF77BD12081ADDC97C0D7C3 /* Pods-Tests-environment.h */,
+				48A44D942987B83AD8BF9EED /* Pods-Tests-resources.sh */,
+				46DFF53D40AEC4DAC8995003 /* Pods-Tests.debug.xcconfig */,
+				02A994B16495265C70EA9E3E /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		A59B92A1E37AB7406D484BBE /* HRSymbolFontKit */ = {
+			isa = PBXGroup;
+			children = (
+				C57198ED1099914B41D0BF1C /* Support Files */,
+			);
+			name = HRSymbolFontKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C57198ED1099914B41D0BF1C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3F292E8DA7CBD06DE4BFD5E /* Pods-HRSymbolFontKit-HRSymbolFontKit.xcconfig */,
+				064CFC30F645097CFFE5BC49 /* Pods-HRSymbolFontKit-HRSymbolFontKit-Private.xcconfig */,
+				F955BE01B8E3E186EFB8E0F0 /* Pods-HRSymbolFontKit-HRSymbolFontKit-dummy.m */,
+				9C63F79B4EDD60E905559F14 /* Pods-HRSymbolFontKit-HRSymbolFontKit-prefix.pch */,
+				79A538D3A9E17B0C844BE7C4 /* Pods-Tests-HRSymbolFontKit.xcconfig */,
+				D98AB914067FF8AD39023E37 /* Pods-Tests-HRSymbolFontKit-Private.xcconfig */,
+				0AF625130F32C28AFE69E65E /* Pods-Tests-HRSymbolFontKit-dummy.m */,
+				B877EA14E46A0A85A1BEF3C6 /* Pods-Tests-HRSymbolFontKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-HRSymbolFontKit-HRSymbolFontKit";
+			sourceTree = "<group>";
+		};
+		E22DBC3599497CAB1FCD42E7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				578ABFB8F9D4920FCC39D4F9 /* Pods-HRSymbolFontKit */,
+				879D509C3624FB213D5B88DB /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		016864A08A9544B8E250C527 /* Pods-HRSymbolFontKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9E62151F24ADCFD5ECA19D /* Build configuration list for PBXNativeTarget "Pods-HRSymbolFontKit" */;
+			buildPhases = (
+				DA370DC030ABE462F1BA27B1 /* Sources */,
+				1DC7EF13BD0FA7D2D5119208 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22A8CADE35D35ABFABD43E4E /* PBXTargetDependency */,
+			);
+			name = "Pods-HRSymbolFontKit";
+			productName = "Pods-HRSymbolFontKit";
+			productReference = CF67EB36D0F0668BD122AFE4 /* libPods-HRSymbolFontKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		11CC6C458D6BB4530502D789 /* Pods-Tests-HRSymbolFontKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4FB23217B006DAF3269C85 /* Build configuration list for PBXNativeTarget "Pods-Tests-HRSymbolFontKit" */;
+			buildPhases = (
+				8F6E5DBEE1453FFD650FE2B1 /* Sources */,
+				4EB5BB483B37D26968DAF0D3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A87E3EB034A2B9001CAFCB7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-HRSymbolFontKit";
+			productName = "Pods-Tests-HRSymbolFontKit";
+			productReference = B33768AF80BC8DC9C122DF22 /* libPods-Tests-HRSymbolFontKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3F6ED097A2F236D1DD744A3C /* Pods-HRSymbolFontKit-HRSymbolFontKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B541781D2BA3162C651174F4 /* Build configuration list for PBXNativeTarget "Pods-HRSymbolFontKit-HRSymbolFontKit" */;
+			buildPhases = (
+				E5885C5C750DE9C05EE0ADEE /* Sources */,
+				22D8CD26356689777F54E70E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF234A8F1A822EF7678F881F /* PBXTargetDependency */,
+			);
+			name = "Pods-HRSymbolFontKit-HRSymbolFontKit";
+			productName = "Pods-HRSymbolFontKit-HRSymbolFontKit";
+			productReference = 42A007E32CBE79513B8B5676 /* libPods-HRSymbolFontKit-HRSymbolFontKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		62D3049A9E6D94441E2866AE /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B01AFA46520BB8BD2EF8281D /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				44F6FFACCBCF29B6BA61B3E4 /* Sources */,
+				5D9C2DD294AB51FB394829F1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33749C5B32760DDAEDB8CEAF /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 234A600F07286CB88184D587 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F6DC344A26A8B948B31039BE /* HRSymbolFontKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F093E0DCE935CB5697D91E2 /* Build configuration list for PBXNativeTarget "HRSymbolFontKit" */;
+			buildPhases = (
+				BB60DC492CDA4960F031045C /* Sources */,
+				DFE38830E409FAF8C2DE7758 /* Frameworks */,
+				28F0805AEEC70BC1382A97A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRSymbolFontKit;
+			productName = HRSymbolFontKit;
+			productReference = AAF1CBC08F7AFA1D372FA53A /* HRSymbolFontKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36D6A92E009FDD2D2D8B6A12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = B7B3B047D05C2FE0E6305F45 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A212F5D9BE55852969002F3;
+			productRefGroup = 3EFD4030BD785A0B70435A3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6DC344A26A8B948B31039BE /* HRSymbolFontKit */,
+				016864A08A9544B8E250C527 /* Pods-HRSymbolFontKit */,
+				3F6ED097A2F236D1DD744A3C /* Pods-HRSymbolFontKit-HRSymbolFontKit */,
+				62D3049A9E6D94441E2866AE /* Pods-Tests */,
+				11CC6C458D6BB4530502D789 /* Pods-Tests-HRSymbolFontKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28F0805AEEC70BC1382A97A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44F6FFACCBCF29B6BA61B3E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8F8E63C8038CD47B6E318C /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F6E5DBEE1453FFD650FE2B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122CE536907EBAA58ED7EDED /* Pods-Tests-HRSymbolFontKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB60DC492CDA4960F031045C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA370DC030ABE462F1BA27B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AB5B69C65BA41ABE70AACC /* Pods-HRSymbolFontKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5885C5C750DE9C05EE0ADEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2F9DFBC5E1AB11A0393BCD /* Pods-HRSymbolFontKit-HRSymbolFontKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A87E3EB034A2B9001CAFCB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6DC344A26A8B948B31039BE /* HRSymbolFontKit */;
+			targetProxy = A16FDA35377D6A4074FE960C /* PBXContainerItemProxy */;
+		};
+		22A8CADE35D35ABFABD43E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6ED097A2F236D1DD744A3C /* Pods-HRSymbolFontKit-HRSymbolFontKit */;
+			targetProxy = ED03597DFBAAD24D410156D8 /* PBXContainerItemProxy */;
+		};
+		33749C5B32760DDAEDB8CEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11CC6C458D6BB4530502D789 /* Pods-Tests-HRSymbolFontKit */;
+			targetProxy = 18FC2E20762636EBA7EEFE8A /* PBXContainerItemProxy */;
+		};
+		CF234A8F1A822EF7678F881F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6DC344A26A8B948B31039BE /* HRSymbolFontKit */;
+			targetProxy = 05060219299FB59A895DB193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CBDDC926908B905D49C6A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98AB914067FF8AD39023E37 /* Pods-Tests-HRSymbolFontKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-HRSymbolFontKit/Pods-Tests-HRSymbolFontKit-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3375A34438338C3856C3AAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA778870D468A301096EB9F6 /* Pods-HRSymbolFontKit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		533F4CBFAF79DFC52AB77F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064CFC30F645097CFFE5BC49 /* Pods-HRSymbolFontKit-HRSymbolFontKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HRSymbolFontKit-HRSymbolFontKit/Pods-HRSymbolFontKit-HRSymbolFontKit-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5590E8E841F2213327DF19DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		5FA1A7ADA10884B08D885179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B70CA37084CD3EEDF0D1B9 /* Pods-HRSymbolFontKit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		612439CA8E7816C87F10EE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		96923EDDC542A9C4793E51AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A994B16495265C70EA9E3E /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A83DEDF4529AFD73364DAD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064CFC30F645097CFFE5BC49 /* Pods-HRSymbolFontKit-HRSymbolFontKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HRSymbolFontKit-HRSymbolFontKit/Pods-HRSymbolFontKit-HRSymbolFontKit-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF89F6F84B2200F3AD2BA918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46DFF53D40AEC4DAC8995003 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B61D1C2681BA67E7D27D7D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE71C3556659A068FDC6306F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F701FAB627A6AD270B2B6BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98AB914067FF8AD39023E37 /* Pods-Tests-HRSymbolFontKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-HRSymbolFontKit/Pods-Tests-HRSymbolFontKit-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F9E62151F24ADCFD5ECA19D /* Build configuration list for PBXNativeTarget "Pods-HRSymbolFontKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA1A7ADA10884B08D885179 /* Debug */,
+				3375A34438338C3856C3AAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F093E0DCE935CB5697D91E2 /* Build configuration list for PBXNativeTarget "HRSymbolFontKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE71C3556659A068FDC6306F /* Debug */,
+				612439CA8E7816C87F10EE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B01AFA46520BB8BD2EF8281D /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF89F6F84B2200F3AD2BA918 /* Debug */,
+				96923EDDC542A9C4793E51AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B541781D2BA3162C651174F4 /* Build configuration list for PBXNativeTarget "Pods-HRSymbolFontKit-HRSymbolFontKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533F4CBFAF79DFC52AB77F87 /* Debug */,
+				A83DEDF4529AFD73364DAD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B3B047D05C2FE0E6305F45 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5590E8E841F2213327DF19DD /* Debug */,
+				B61D1C2681BA67E7D27D7D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA4FB23217B006DAF3269C85 /* Build configuration list for PBXNativeTarget "Pods-Tests-HRSymbolFontKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CBDDC926908B905D49C6A90 /* Debug */,
+				F701FAB627A6AD270B2B6BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36D6A92E009FDD2D2D8B6A12 /* Project object */;
+}

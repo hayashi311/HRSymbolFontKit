@@ -1,0 +1,14 @@
+PODS:
+  - HRSymbolFontKit (0.1.0)
+
+DEPENDENCIES:
+  - HRSymbolFontKit (from `../`)
+
+EXTERNAL SOURCES:
+  HRSymbolFontKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HRSymbolFontKit: d86f0adfeb689ca409e9a14fe68c19675416ece3
+
+COCOAPODS: 0.34.4
